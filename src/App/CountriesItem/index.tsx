@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from 'react'
+import shortid from 'shortid'
 import {
   DYNAMIC_DATA_GENERATION,
   RECURSIVE_DATA_GENERATION,
@@ -73,7 +74,7 @@ export const CountriesItem: React.FC<CountriesItemProps> = ({
         if (!visibleState) return <></>
         return (
           <CountriesItem
-            key={item.name}
+            key={shortid.generate()}
             data={item}
             soursData={soursData}
             ni={ni - 1}

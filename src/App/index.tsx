@@ -1,6 +1,7 @@
 /* eslint-disable no-nested-ternary */
 import React, { useState } from 'react'
 import { useQuery } from '@apollo/client'
+import shortid from 'shortid'
 import countries from '../data/countries.json'
 import { CountriesItem, CountryContext } from './CountriesItem'
 import { addNewChildren, generateData } from './utils'
@@ -63,7 +64,7 @@ export const App: React.FC = () => {
       <CountryContext.Provider value={{ visibleContext, setVisibleContext }}>
         {dataNew?.map((item) => (
           <CountriesItem
-            key={item.name}
+            key={shortid.generate()}
             data={item}
             soursData={soursData}
             ni={n - 1}

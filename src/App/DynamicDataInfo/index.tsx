@@ -40,7 +40,7 @@ export const DynamicDataInfo: React.FC<DynamicDataInfoProps> = ({
           tree) and m (number of children in each node of object)
         </div>
       </div>
-      <div className="recursive-data-info-listing">
+      <div className="dynamic-data-info-listing">
         <img src="./img/listing2.png" alt="" />
       </div>
       <GenerateDataButton n={n} setN={setN} m={m} setM={setM} />
