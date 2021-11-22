@@ -1,0 +1,10 @@
+.recursive-data-info-listing {
+  background-color: #282c34;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.recursive-data-info-listing img {
+  max-width: 800px;
+  width: 100%;
+}

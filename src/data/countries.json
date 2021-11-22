@@ -1,0 +1,187 @@
+{
+  "data": [
+    {
+      "name": "Asia",
+      "children": [
+        {
+          "name": "India",
+          "children": [
+            {
+              "name": "Goa",
+              "children": [
+                {
+                  "name": "North Goa",
+                  "children": [
+                    {
+                      "name": "Arambol",
+                      "children": []
+                    },
+                    {
+                      "name": "Mandrem",
+                      "children": []
+                    },
+                    {
+                      "name": "Morjim",
+                      "children": []
+                    },
+                    {
+                      "name": "Chapora",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "South Goa",
+                  "children": [
+                    {
+                      "name": "Margao",
+                      "children": []
+                    },
+                    {
+                      "name": "Colva",
+                      "children": []
+                    },
+                    {
+                      "name": "Canacona",
+                      "children": []
+                    }
+                  ]
+                }              ]
+            },
+            {
+              "name": "Karnataka",
+              "children": [
+                {
+                  "name": "Bengaluru",
+                  "children": []
+                }  ,
+                {
+                  "name": "Hampi",
+                  "children": []
+                }            ]
+            },
+            {
+              "name": "Tamil Nadu",
+              "children": [
+                {
+                  "name": "Chennai",
+                  "children": []
+                },
+                {
+                  "name": "Madurai",
+                  "children": []
+                } 
+              ]
+            }
+          ]
+        }, {
+          "name": "Sri Lanka",
+          "children": [
+            {
+              "name": "Colombo",
+              "children": []
+            },
+            {
+              "name": "Matara",
+              "children": []
+            },
+            {
+              "name": "Haputale",
+              "children": []
+            },
+            {
+              "name": "Ella",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }, {
+      "name": "Europe",
+      "children": [
+        {
+          "name": "Ukraine",
+          "children": [        
+            {
+              "name": "Kyiv",
+              "children": []
+            },
+            {
+              "name": "Lviv",
+              "children": []
+            }
+            ,
+            {
+              "name": "Dnipro",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Unite Kingdom",
+          "children": [
+            {
+              "name": "England",
+              "children": [
+                {
+                  "name": "London",
+                  "children": []
+                },
+                {
+                  "name": "Manchester",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Scotland",
+              "children": []
+            },
+            {
+              "name": "Wales",
+              "children": []
+            },
+            {
+              "name": "North Ireland",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Africa",
+      "children": [
+        {
+          "name": "Nigeria",
+          "children": []
+        },
+        {
+          "name": "Ethiopia",
+          "children": []
+        },
+        {
+          "name": "Egypt",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name":"America",
+      "children": [
+        {
+          "name": "USA",
+          "children": []
+        },
+        {
+          "name": "Canada",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name":"Antarctica",
+      "children": []
+    }
+  ]
+}
